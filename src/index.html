@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Danieo's Lab > Ant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A JavaScript implementation of Langton's Ant.">
+    <meta name="author" content="Daniel Budziński">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Danieo's Ant</h1>
+      <h2>A JavaScript implementation of Langton's Ant.</h2>    
+    </header>
+    <main>
+      <canvas id="ant" width="1000" height="800"></canvas>
+      <div class="control">
+        <div class="option">
+          <label for="timeScale">Step per ms</label>
+          <input id="timeScale" type="range" min="0" max="1000" value="1000">
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        This project is open under <a href="#">MIT</a> license. Feel free to use and modify it!
+      </p>
+    </footer>
+    <script src="ant.js"></script>
+  </body>
+</html>

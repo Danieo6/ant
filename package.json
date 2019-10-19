@@ -1,0 +1,10 @@
+{
+  "name": "danieo-ant",
+  "version": "1.0.0",
+  "description": "Implementation of Langton's ant in JavaScript",
+  "main": "ant.js",
+  "scripts": {
+  },
+  "author": "Daniel Budziński",
+  "license": "MIT"
+}
